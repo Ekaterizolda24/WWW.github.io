@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans';
+    background-color: white;
+    color: #212121;
+    line-height: 23px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 22px;
+    text-align: center;
+    color: #212121;
+}
+h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #212121;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    line-height: 22px;
+    color: #212121;
+}
+
+
+
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #212121;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.container1{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+nav{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+
+.hello{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hello_name h2{
+    margin: 0;
+}
+.nav_link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav_item{
+    margin-left: 35px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.picpic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.p{
+    height: 500px;
+    width: 23%;
+    background-color: yellow;
+    transition: 0.3s;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+.pic{
+    height: 500px;
+    background-color: yellow;
+    margin-bottom: 50px;
+    -webkit-clip-path-: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+.p:hover{
+    box-shadow: 5px 5px 20px 0px #646464;
+}
+.pic_headliner{
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.service_sub_headliner{
+    background-color: white;
+    margin: 0;
+    color: #5d4c03;
+    position: center;
+    bottom: 50px;
+    left: 57%;
+    
+    transition: 0.3s;
+    font-size: 20px;
+}
+p.service_sub_headliner{
+    width: 290px;
+    margin: auto;
+    padding: 10px;
+    transition: 0.3s;
+    
+}
+.slider{
+    width: 100%;
+}
+.slide-list{
+    display: flex;
+    width: 100%;
+    transition: 0.8s;
+}
+.slide{
+    flex: 1 0 100%;
+}
+.viewport{
+    position: relative;
+    overflow: hidden;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.next,.prev{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    outline: none;
+    z-index: 2;
+}
+.next{
+    left: auto;
+    right: 0;
+}
+.next:hover, .prev:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.nav-btns{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    z-index: 2;
+}
+.nav{
+    text-align: center;
+    width: 1450px;
+
+}
+.messanger{
+    justify-content: center;
+}
+.member{
+    height: 500px;
+    width: 370px;
+}
+h3.member_name{
+    margin-top: 38px;
+}
+p.member_position{
+    margin-top: 12px;
+    padding-bottom: 30px;
+}
+.member_socio{
+    display: flex;
+    justify-content: center;
+}
+.socio_icon_block {
+    height: 106px;
+    width: 106px;
+    background-color: yellow;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.contact_block_info {
+    margin-top: 36px;
+    font-size: 20px;
+    color: #000;
+    line-height: 28px;
+    padding-top: 140px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.iam_subtitle{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.navbar_title{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.mogu{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.w{
+    padding-bottom: 30px;
+    margin: auto;
+    width: 90%;
+}
+.My_metods{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.iam, .navbar{
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.iam_title, .iam_subtitle1, .navbar_title, .iam_subtitle2{
+    color: #fff;
+    padding-top: 30px;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 50px;
+}
+.iam{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-left: -15px;
+}
+.messanger {
+    width: 630px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.socio_icon_block{
+    height: 106px;
+    width: 106px;
+    background-color: yellow;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.member{
+    width: 1000px;
+    align-items: flex;
+}
+.pic_title{
+    padding-top: 30px;
+}
+.container2{
+    padding-left: 230px;
+}
+.servis{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+}
+.pic_icon{
+    width: 300px;
+    height: auto;
+}
+.cat{
+    padding-left: 25%;
+    width: 50%;
+    height: auto;
+}
